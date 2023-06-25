@@ -1,12 +1,9 @@
-import Home from 'Pages';
+import Home from './pages/Home';
 import './assets/styles/custom.scss';
 import './App.css';
 
-
 function App() {
-  return ( 
-  <Home />
-  );
+  return <Home />;
 }
 
 export default App;
