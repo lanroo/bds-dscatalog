@@ -1,0 +1,13 @@
+/* Importando a fonte 'Open Sans' do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* Aplicando a fonte 'Open Sans' para todos os elementos da página */
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Definindo a font-weight para 700 (bold) e removendo a margem inferior padrão para todos os elementos de cabeçalho (h1 a h6) */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    margin-bottom: 0;
+}
